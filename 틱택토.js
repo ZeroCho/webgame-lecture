@@ -5,11 +5,9 @@ var 칸들 = [];
 var 턴 = 'X';
 var 결과 = document.createElement('div');
 
-var 비동기콜백 = function(이벤트) {
+var 비동기콜백 = function (이벤트) {
   var 몇줄 = 줄들.indexOf(이벤트.target.parentNode);
-  console.log('몇줄', 몇줄);
   var 몇칸 = 칸들[몇줄].indexOf(이벤트.target);
-  console.log('몇칸', 몇칸);
 
   if (칸들[몇줄][몇칸].textContent !== '') { // 칸이 이미 채워져 있는가?
     console.log('빈 칸아닙니다.');
@@ -35,23 +33,19 @@ var 비동기콜백 = function(이벤트) {
       다참 = true;
     }
     // 대각선 검사
-    if (몇줄 - 몇칸 === 0) { // 대각선 검사 필요한 경우
-      if (
-        칸들[0][0].textContent === 턴 &&
-        칸들[1][1].textContent === 턴 &&
-        칸들[2][2].textContent === 턴
-      ) {
-        다참 = true;
-      }
+    if (
+      칸들[0][0].textContent === 턴 &&
+      칸들[1][1].textContent === 턴 &&
+      칸들[2][2].textContent === 턴
+    ) {
+      다참 = true;
     }
-    if (Math.abs(몇줄 - 몇칸) === 2) { // 대각선 검사 필요한 경우
-      if (
-        칸들[0][2].textContent === 턴 &&
-        칸들[1][1].textContent === 턴 &&
-        칸들[2][0].textContent === 턴
-      ) {
-        다참 = true;
-      }
+    if (
+      칸들[0][2].textContent === 턴 &&
+      칸들[1][1].textContent === 턴 &&
+      칸들[2][0].textContent === 턴
+    ) {
+      다참 = true;
     }
     // 다 찼으면
     if (다참) {
@@ -87,4 +81,3 @@ for (var i = 1; i <= 3; i += 1) {
 }
 바디.appendChild(테이블);
 바디.appendChild(결과);
-console.log('줄들', 줄들, '칸들', 칸들);
