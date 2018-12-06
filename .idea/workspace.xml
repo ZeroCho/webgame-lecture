@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6be589d0-cc1e-4804-9b26-3d0c4cff4de1" name="Default Changelist" comment="추가: 짝맞추기 게임">
-      <change afterPath="$PROJECT_DIR$/자스스톤.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/자스스톤.js" afterDir="false" />
+    <list default="true" id="6be589d0-cc1e-4804-9b26-3d0c4cff4de1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/자스스톤.html" beforeDir="false" afterPath="$PROJECT_DIR$/자스스톤.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/자스스톤.js" beforeDir="false" afterPath="$PROJECT_DIR$/자스스톤.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,15 +19,16 @@
     <session id="1390505940">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="2" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -44,16 +45,16 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="2037" />
-          <entry key="js" value="7274" />
-          <entry key="txt" value="62" />
+          <entry key="html" value="2202" />
+          <entry key="js" value="8696" />
+          <entry key="txt" value="72" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="2037" />
-          <entry key="JavaScript" value="7274" />
-          <entry key="PLAIN_TEXT" value="62" />
+          <entry key="HTML" value="2202" />
+          <entry key="JavaScript" value="8696" />
+          <entry key="PLAIN_TEXT" value="72" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -61,14 +62,14 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4539627">
+    <splitter split-orientation="horizontal" split-proportion="0.41899768">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/자스스톤.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="800">
-                  <caret line="32" column="32" lean-forward="true" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+                <state relative-caret-position="-508">
+                  <caret line="71" column="24" lean-forward="true" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
                   <folding>
                     <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -99,7 +100,7 @@
             <entry file="file://$PROJECT_DIR$/짝맞추기.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="225">
-                  <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+                  <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
                 </state>
               </provider>
             </entry>
@@ -152,12 +153,28 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/자스스톤.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="336">
-                  <caret line="57" column="6" lean-forward="true" selection-start-line="57" selection-start-column="6" selection-end-line="57" selection-end-column="6" />
+                <state relative-caret-position="525">
+                  <caret line="122" column="5" lean-forward="true" selection-start-line="122" selection-start-column="5" selection-end-line="122" selection-end-column="5" />
+                  <folding>
+                    <element signature="e#9#234#0" />
+                    <element signature="e#259#503#0" />
+                    <element signature="n#!!block;n#덱에서필드로#0" />
+                    <element signature="n#!!block;n#필드다시그리기#0" />
+                    <element signature="n#!!block;n#덱다시그리기#0" />
+                    <element signature="n#!!block;n#영웅다시그리기#0" />
+                    <element signature="n#!!block;n#화면다시그리기#0" />
+                    <element signature="n#!!block;n#서로공격#0" />
+                    <element signature="n#!!block;n#상대덱생성#0" />
+                    <element signature="n#!!block;n#내덱생성#0" />
+                    <element signature="n#!!block;n#내영웅생성#0" />
+                    <element signature="n#!!block;n#상대영웅생성#0" />
+                    <element signature="n#!!block;n#Card#0" />
+                    <element signature="n#!!block;n#카드공장#0" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -267,7 +284,8 @@
       <workItem from="1543443397702" duration="744000" />
       <workItem from="1543495607930" duration="3154000" />
       <workItem from="1543503073253" duration="459000" />
-      <workItem from="1543927771816" duration="6354000" />
+      <workItem from="1543927771816" duration="7173000" />
+      <workItem from="1544100888862" duration="4515000" />
     </task>
     <task id="LOCAL-00001" summary="추가: 지뢰찾기.html">
       <created>1541515661971</created>
@@ -297,11 +315,18 @@
       <option name="project" value="LOCAL" />
       <updated>1542722775856</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="추가: 자스스톤 임시">
+      <created>1543934345553</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1543934345553</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34403000" />
+    <option name="totallyTimeSpent" value="39737000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
@@ -341,7 +366,8 @@
     <MESSAGE value="추가: 반응속도 체크" />
     <MESSAGE value="수정: 틱택토, 컴퓨터의 턴" />
     <MESSAGE value="추가: 짝맞추기 게임" />
-    <option name="LAST_COMMIT_MESSAGE" value="추가: 짝맞추기 게임" />
+    <MESSAGE value="추가: 자스스톤 임시" />
+    <option name="LAST_COMMIT_MESSAGE" value="추가: 자스스톤 임시" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/가위바위보.js">
@@ -396,6 +422,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/짝맞추기.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/반응속도.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="925">
@@ -431,17 +464,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/짝맞추기.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/자스스톤.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="32" column="32" lean-forward="true" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+        <state relative-caret-position="-508">
+          <caret line="71" column="24" lean-forward="true" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
           <folding>
             <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -451,8 +477,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/자스스톤.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="57" column="6" lean-forward="true" selection-start-line="57" selection-start-column="6" selection-end-line="57" selection-end-column="6" />
+        <state relative-caret-position="525">
+          <caret line="122" column="5" lean-forward="true" selection-start-line="122" selection-start-column="5" selection-end-line="122" selection-end-column="5" />
+          <folding>
+            <element signature="e#9#234#0" />
+            <element signature="e#259#503#0" />
+            <element signature="n#!!block;n#덱에서필드로#0" />
+            <element signature="n#!!block;n#필드다시그리기#0" />
+            <element signature="n#!!block;n#덱다시그리기#0" />
+            <element signature="n#!!block;n#영웅다시그리기#0" />
+            <element signature="n#!!block;n#화면다시그리기#0" />
+            <element signature="n#!!block;n#서로공격#0" />
+            <element signature="n#!!block;n#상대덱생성#0" />
+            <element signature="n#!!block;n#내덱생성#0" />
+            <element signature="n#!!block;n#내영웅생성#0" />
+            <element signature="n#!!block;n#상대영웅생성#0" />
+            <element signature="n#!!block;n#Card#0" />
+            <element signature="n#!!block;n#카드공장#0" />
+          </folding>
         </state>
       </provider>
     </entry>

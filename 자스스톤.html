@@ -10,7 +10,7 @@
             margin-right: 50px;
         }
         .turn {
-            border: 1px solid black;
+            border: 1px solid blue;
         }
         #rival {
             vertical-align: bottom;
@@ -69,6 +69,12 @@
         .card-hidden {
             display: none;
         }
+        .card-selected {
+            border: 2px solid red;
+        }
+        .card-turnover {
+            background: gray;
+        }
         #turn-btn {
             float: right;
             position: relative;
@@ -108,5 +114,7 @@
     </div>
 </div>
 <script src="자스스톤.js"></script>
+<div>빨강이 체력, 노랑이 공격력, 적 영웅의 체력이 0이되면 승리!
+영웅을 보호하기 위해 쫄병들을 코스트(파란색) 내에서 뽑을 수 있음</div>
 </body>
 </html>
