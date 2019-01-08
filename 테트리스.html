@@ -7,13 +7,23 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>테트리스</title>
     <style>
-        #tetris {
+        #tetris, #next-table {
             border-collapse: collapse;
+        }
+        #next-table {
+            position: absolute;
+            right: 10px;
+            top: 10px;
         }
         #tetris td {
             border: 1px solid black;
             width: 30px;
             height: 30px;
+        }
+        #next-table td {
+            border: 1px solid black;
+            width: 15px;
+            height: 15px;
         }
         td.white {
             background-color: white;
@@ -27,25 +37,46 @@
         td.orange {
             background-color: orange;
         }
-        td.skyblue {
-            background-color: skyblue;
+        td.green {
+            background-color: green;
         }
-        td.yellowgreen {
-            background-color: yellowgreen;
+        td.navy {
+            background-color: navy;
         }
-        td.pink {
-            background-color: pink;
+        td.violet {
+            background-color: violet;
         }
         td.yellow {
             background-color: yellow;
+        }
+        td.black {
+            background-color: black;
         }
     </style>
 </head>
 <body>
     <table id="tetris">
     </table>
+    <table id="next-table">
+        <tr>
+            <td></td><td></td><td></td><td></td>
+        </tr>
+        <tr>
+            <td></td><td></td><td></td><td></td>
+        </tr>
+        <tr>
+            <td></td><td></td><td></td><td></td>
+        </tr>
+        <tr>
+            <td></td><td></td><td></td><td></td>
+        </tr>
+    </table>
     <button id="stop">중단</button>
     <button id="start">재개</button>
+    <button id="mute">소리끔</button>
+    <div>점수: <span id="score">0</span></div>
+    <audio id="bgm" src="./Tetris_theme.ogg.mp3" autoplay></audio>
     <script src="./테트리스.js"></script>
+
 </body>
 </html>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6be589d0-cc1e-4804-9b26-3d0c4cff4de1" name="Default Changelist" comment="추가: 테트리스 1일차">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/테트리스.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/테트리스.js" afterDir="false" />
+    <list default="true" id="6be589d0-cc1e-4804-9b26-3d0c4cff4de1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Tetris_theme.ogg.mp3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/테트리스.html" beforeDir="false" afterPath="$PROJECT_DIR$/테트리스.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/테트리스.js" beforeDir="false" afterPath="$PROJECT_DIR$/테트리스.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,13 +17,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.7285714">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/자스스톤.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state>
+                <state relative-caret-position="3565">
                   <caret line="186" column="3" selection-start-line="186" selection-start-column="3" selection-end-line="186" selection-end-column="3" />
                   <folding>
                     <element signature="n#!!block;n#덱에서필드로#0" />
@@ -39,7 +39,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/mutationObserver.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-17">
+                <state relative-caret-position="391">
                   <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
                 </state>
               </provider>
@@ -47,16 +47,14 @@
           </file>
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/테트리스.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-17" />
-              </provider>
+              <provider selected="true" editor-type-id="text-editor" />
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/테트리스.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="499">
-                  <caret line="113" lean-forward="true" selection-start-line="113" selection-end-line="113" />
+                <state relative-caret-position="658">
+                  <caret line="369" column="3" lean-forward="true" selection-start-line="369" selection-start-column="3" selection-end-line="369" selection-end-column="3" />
                 </state>
               </provider>
             </entry>
@@ -64,12 +62,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/테트리스.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="706">
-                  <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+                <state relative-caret-position="596">
+                  <caret line="73" column="23" lean-forward="true" selection-start-line="73" selection-start-column="23" selection-end-line="73" selection-end-column="23" />
                 </state>
               </provider>
             </entry>
@@ -82,6 +80,11 @@
     <findStrings>
       <find>내</find>
       <find>내.영웅</find>
+      <find>가장위좌표</find>
+      <find>console.log</find>
+      <find>currentTopLeft</find>
+      <find>startRow</find>
+      <find>colors</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -101,16 +104,17 @@
         <option value="$PROJECT_DIR$/자스스톤.html" />
         <option value="$PROJECT_DIR$/자스스톤.js" />
         <option value="$PROJECT_DIR$/mutationObserver.html" />
+        <option value="$PROJECT_DIR$/threadtest.js" />
         <option value="$PROJECT_DIR$/테트리스.html" />
         <option value="$PROJECT_DIR$/테트리스.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="233" />
-    <option name="y" value="-23" />
-    <option name="width" value="1451" />
-    <option name="height" value="1087" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -134,11 +138,15 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="ignore_missing_gitignore" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.JavaScript" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\zerocho\WebstormProjects\webgame-lecture" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\zerocho\WebstormProjects\webgame-lecture" />
     </key>
@@ -180,7 +188,14 @@
       <workItem from="1544100888862" duration="5447000" />
       <workItem from="1544195855066" duration="34000" />
       <workItem from="1544199134513" duration="3620000" />
-      <workItem from="1545915384040" duration="7113000" />
+      <workItem from="1545915384040" duration="7723000" />
+      <workItem from="1545923202977" duration="608000" />
+      <workItem from="1546062168516" duration="1893000" />
+      <workItem from="1546227939353" duration="642000" />
+      <workItem from="1546323297160" duration="13000" />
+      <workItem from="1546433770117" duration="15795000" />
+      <workItem from="1546860117043" duration="26000" />
+      <workItem from="1546864676062" duration="12948000" />
     </task>
     <task id="LOCAL-00001" summary="추가: 지뢰찾기.html">
       <created>1541515661971</created>
@@ -224,17 +239,24 @@
       <option name="project" value="LOCAL" />
       <updated>1544105564130</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="추가: 테트리스 1일차">
+      <created>1545922515247</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1545922515247</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51436000" />
+    <option name="totallyTimeSpent" value="83971000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.104477614" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.104477614" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -246,7 +268,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.087318085" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3856549" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Quokka" order="11" weight="0.32917964" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -320,27 +342,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/자스스톤.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="186" column="3" selection-start-line="186" selection-start-column="3" selection-end-line="186" selection-end-column="3" />
-          <folding>
-            <element signature="n#!!block;n#덱에서필드로#0" />
-            <element signature="n#!!block;n#필드다시그리기#0" />
-            <element signature="n#!!block;n#덱다시그리기#0" />
-            <element signature="n#!!block;n#영웅다시그리기#0" />
-            <element signature="n#!!block;n#화면다시그리기#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mutationObserver.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/틱택토.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -397,15 +398,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/테트리스.html">
+    <entry file="file://$PROJECT_DIR$/threadtest.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17" />
+        <state>
+          <caret column="23" lean-forward="true" selection-start-column="23" selection-end-column="23" />
+        </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/자스스톤.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3565">
+          <caret line="186" column="3" selection-start-line="186" selection-start-column="3" selection-end-line="186" selection-end-column="3" />
+          <folding>
+            <element signature="n#!!block;n#덱에서필드로#0" />
+            <element signature="n#!!block;n#필드다시그리기#0" />
+            <element signature="n#!!block;n#덱다시그리기#0" />
+            <element signature="n#!!block;n#영웅다시그리기#0" />
+            <element signature="n#!!block;n#화면다시그리기#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mutationObserver.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/테트리스.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/테트리스.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="113" lean-forward="true" selection-start-line="113" selection-end-line="113" />
+        <state relative-caret-position="658">
+          <caret line="369" column="3" lean-forward="true" selection-start-line="369" selection-start-column="3" selection-end-line="369" selection-end-column="3" />
         </state>
       </provider>
     </entry>
