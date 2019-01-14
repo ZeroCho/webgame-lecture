@@ -232,7 +232,6 @@ function draw() {
   });
 }
 
-let int = setInterval(tick, 2000);
 
 function drawNext() { // 다음 블록 그리는 함수
   const nextTable = document.getElementById('next-table');
@@ -247,7 +246,7 @@ function drawNext() { // 다음 블록 그리는 함수
   })
 }
 
-function generate() {
+function generate() { // 테트리스 블록 생성
   if (!currentBlock) {
     currentBlock = blocks[Math.floor(Math.random() * blocks.length)];
   } else {
@@ -259,14 +258,14 @@ function generate() {
   drawNext();
   currentTopLeft = [-1, 3];
   let isGameOver = false;
-  currentBlock.shape[0].slice(1).forEach((col, i) => {
+  currentBlock.shape[0].slice(1).forEach((col, i) => { // 게임 오버 판단
     col.forEach((row, j) => {
       if (row && tetrisData[i][j + 3]) {
         isGameOver = true;
       }
     });
   });
-  currentBlock.shape[0].slice(1).forEach((col, i) => {
+  currentBlock.shape[0].slice(1).forEach((col, i) => { // 블록 데이터 생성
     console.log(currentBlock.shape[0], currentBlock.shape[0].slice(1), col);
     col.forEach((row, j) => {
       if (row) {
@@ -330,8 +329,8 @@ function tick() { // 한 칸 아래로
     activeBlocks.forEach((blocks) => {
       tetrisData[blocks[0]][blocks[1]] *= 10;
     });
-    checkRows();
-    generate();
+    checkRows(); // 지워질 줄 있나 확인
+    generate(); // 새 블록 생성
     return false;
   } else if (canGoDown) {
     for (let i = tetrisData.length - 1; i >= 0; i--) {
@@ -349,6 +348,7 @@ function tick() { // 한 칸 아래로
   }
 }
 
+let int = setInterval(tick, 2000);
 init();
 generate();
 
@@ -482,10 +482,7 @@ window.addEventListener('keyup', (e) => {
       break;
     }
     case 'Space': // 한방에 쭉 떨구기
-      console.log('down');
-      while (tick()) {
-        console.log('down');
-      }
+      while (tick()) {}
       break;
   }
 });
