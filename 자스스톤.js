@@ -42,18 +42,16 @@ function 덱에서필드로(데이터, 내턴) {
 
 function 필드다시그리기(객체) {
   객체.필드.innerHTML = '';
-  객체.필드data.forEach(function (data) {
+  객체.필드data.forEach(function(data) {
     카드돔연결(data, 객체.필드);
   });
 }
-
 function 덱다시그리기(객체) {
   객체.덱.innerHTML = '';
-  객체.덱data.forEach(function (data) {
+  객체.덱data.forEach(function(data) {
     카드돔연결(data, 객체.덱);
   });
 }
-
 function 영웅다시그리기(객체) {
   객체.영웅.innerHTML = '';
   카드돔연결(객체.영웅data, 객체.영웅, true);
@@ -79,7 +77,7 @@ function 턴액션수행(카드, 데이터, 내턴) {
     데이터.hp = 데이터.hp - 아군.선택카드data.att;
     if (데이터.hp <= 0) { // 카드가 죽었을 때
       var 인덱스 = 적군.필드data.indexOf(데이터);
-      if (인덱스 > -1) { // 쫄병이 죽었을 때
+      if (인덱스 > -1 ) { // 쫄병이 죽었을 때
         적군.필드data.splice(인덱스, 1);
       } else { // 영웅이 죽었을 때
         alert('승리하셨습니다!');
@@ -122,31 +120,27 @@ function 카드돔연결(데이터, 돔, 영웅) {
     이름.textContent = '영웅';
     카드.appendChild(이름)
   }
-  카드.addEventListener('click', function () {
+  카드.addEventListener('click', function() {
     턴액션수행(카드, 데이터, 턴);
   });
   돔.appendChild(카드);
 }
-
 function 상대덱생성(개수) {
   for (var i = 0; i < 개수; i++) {
     상대.덱data.push(카드공장());
   }
   덱다시그리기(상대);
 }
-
 function 내덱생성(개수) {
   for (var i = 0; i < 개수; i++) {
     나.덱data.push(카드공장(false, true));
   }
   덱다시그리기(나);
 }
-
 function 내영웅생성() {
   나.영웅data = 카드공장(true, true);
   카드돔연결(나.영웅data, 나.영웅, true);
 }
-
 function 상대영웅생성() {
   상대.영웅data = 카드공장(true);
   카드돔연결(상대.영웅data, 상대.영웅, true);
@@ -167,7 +161,6 @@ function Card(영웅, 내카드) {
     this.mine = true;
   }
 }
-
 function 카드공장(영웅, 내카드) {
   return new Card(영웅, 내카드);
 }
@@ -188,7 +181,7 @@ function 초기세팅() {
   화면다시그리기(false); // 내화면
 }
 
-턴버튼.addEventListener('click', function () {
+턴버튼.addEventListener('click', function() {
   var 객체 = 턴 ? 나 : 상대;
   document.getElementById('rival').classList.toggle('turn');
   document.getElementById('my').classList.toggle('turn');
