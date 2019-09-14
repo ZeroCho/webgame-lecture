@@ -54,6 +54,9 @@ document.querySelector('#exec').addEventListener('click', function() {
         var 부모tbody = e.currentTarget.parentNode.parentNode;
         var 칸 = Array.prototype.indexOf.call(부모tr.children, e.currentTarget);
         var 줄 = Array.prototype.indexOf.call(부모tbody.children, 부모tr);
+        if (dataset[줄][칸] === 코드표.연칸) { // 이미 연 칸은 오른쪽 눌러도 효과 없게
+          return;
+        }
         if (e.currentTarget.textContent === '' || e.currentTarget.textContent === 'X') {
           e.currentTarget.textContent = '!';
           e.currentTarget.classList.add('flag');
