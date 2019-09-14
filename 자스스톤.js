@@ -94,7 +94,9 @@ function 턴액션수행(카드, 데이터, 내턴) {
     return;
   }
   if (데이터.field) { // 카드가 필드에 있으면
-    카드.parentNode.querySelectorAll('.card').forEach(function(card) {
+    //  영웅 부모와 필드카드의 부모가 다르기때문에 document에서 모든 .card를 검색한다
+    // 카드.parentNode.querySelectorAll('.card').forEach(function (card) {
+    document.querySelectorAll('.card').forEach(function (card) {
       card.classList.remove('card-selected');
     });
     카드.classList.add('card-selected');
@@ -164,6 +166,13 @@ function 카드공장(영웅, 내카드) {
 }
 
 function 초기세팅() {
+  [상대, 나].forEach(function (item) {
+    item.덱data = [];
+    item.영웅data = [];
+    item.필드data = [];
+    item.선택카드 = [];
+    item.선택카드data = [];
+  });
   상대덱생성(5);
   내덱생성(5);
   내영웅생성();
